@@ -6,3 +6,5 @@ local map = LazyVim.safe_keymap_set
 
 map("n", "gT", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
 map("n", "gt", "<cmd>bnext<cr>", { desc = "Next Buffer" })
+vim.keymap.del("n", "<S-h>")
+vim.keymap.del("n", "<S-l>")
